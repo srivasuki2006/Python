@@ -1,0 +1,19 @@
+n=int(input("Enter number of sequences:"))
+a=0
+b=1
+count=0
+print(a)
+print(b)
+if n<=0:
+    print("Not valid")
+elif n==1:
+    print("Fibanaoicc sequence is:")
+    print(a)
+else:
+    while count<n:
+        c=a+b
+        print(c)
+        a=b
+        b=c
+        count+=1
+        
